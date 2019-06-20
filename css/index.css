@@ -1,0 +1,30 @@
+body{
+	color: #fff;
+	background: url('../images/bg.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.form-container{
+	border: 0px solid #fff;
+	border-radius: 10px;
+	padding: 50px 60px;
+	margin-top: 15vh;
+	margin-bottom: 10px;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+input[type="text"],input[type="number"],input[type="email"],#description{
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	color: #fff;
+}
+.submit{
+	border-radius: 20px;
+}
+.date,.time{
+	border-radius: 10px;
+	outline: none;
+	color: black;
+}

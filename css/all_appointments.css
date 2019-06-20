@@ -1,0 +1,37 @@
+body{
+	color: #fff;
+	background: #204557;
+}
+.top_bar{
+	background: #345971;
+	padding: 0;
+	font-family: "";
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+#adminLogo{
+	width: 80px;
+	height: 80px;
+	background: white;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+.sign_out{
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.data{
+	padding-top: 150px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 15px;
+}
+tr:hover{
+	background: green;
+	cursor: pointer;
+}
+tr,th,td{
+	border: 1px solid #fff;
+	border-collapse: none;
+}
